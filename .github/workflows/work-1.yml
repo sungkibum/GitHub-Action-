@@ -1,4 +1,4 @@
-name: work-1
+name: work-1More actions
 on:
   push:
     branches:
@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: sayHi
         run: echo "Hi"
-              - name: Wait for 10 seconds
+      - name: Wait for 10 seconds
         run: sleep 10  # 10초 대기
       - name: sayMyName
-        run: echo "${{ github.actor }}"Add commentMore actions
+        run: echo "${{ github.actor }}"
   hello2:
     runs-on: ubuntu-latest
     steps:

@@ -4,9 +4,8 @@ on:
     paths:
       - '.github/workflows/**'
       - 'src/**'
-      - 'build.gradle'
+      - 'build.gradle.kts'
       - 'Dockerfile'
-      - 'index.html'
     branches:
       - main
 jobs:
